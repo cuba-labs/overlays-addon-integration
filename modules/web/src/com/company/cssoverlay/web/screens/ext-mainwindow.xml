@@ -10,7 +10,9 @@
         <split id="foldersSplit">
             <main:workArea id="workArea">
                 <main:initialLayout>
-                    <hbox spacing="true" margin="true">
+                    <hbox id="demoBox"
+                          spacing="true"
+                          margin="true">
                         <button id="demoBtn"
                                 caption="Demo"/>
                     </hbox>
