@@ -1,0 +1,9 @@
+/* Define your theme modifications inside next mixin */
+@mixin com_company_cssoverlay-halo-ext {
+    .overlay-badge {
+      background: red;
+      color: white;
+      border: 1px solid red;
+      border-radius: 3px;
+    }
+}
